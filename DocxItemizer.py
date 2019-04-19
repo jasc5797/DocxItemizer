@@ -4,7 +4,7 @@ import shutil               # Makes copies of files
 import time                 # Gets a time stamps
 import imghdr               # Checks if a file is actually an image
 import re                   # Regex search file name and file contents
-import lxml.etree as et     # Processes the XML files and transform them using XSLT
+import lxml.etree as et     # Processes the XML files and transform them using XSLT. This package will need to be installed in order to run the script
 import argparse             # Parses the arguments passed by the user. Also provides a help menu using the [-h] flag
 
 __author__ = 'James Stinson-Cerra'

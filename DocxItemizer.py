@@ -18,7 +18,7 @@ parser.add_argument("path", type=str,
                     help="Required Argument: Path to .docx file or directory containing .docx file(s)")
 # Optional Argument: Term to search for in file names and file contents while itemizing the .docx file(s)
 parser.add_argument("search_term", type=str, nargs="?",
-                    help="Optional Arguement: Regex to use to match file names and file contents")
+                    help="Optional Argu``ment: Regex to use to match file names and file contents")
 
 
 class Itemizer:
@@ -41,7 +41,7 @@ class Itemizer:
                 * XML contents is converted to plain text and stripped of XML elements
                     by using XSLT and some python to insert newlines
             e. RELS Directory: Contains all RELS files found in the "Extracted Document" directory
-            f. Uncatergorized Directory: Contains all files with unknown file extensions
+            f. Uncategorized Directory: Contains all files with unknown file extensions
                 in the "Extracted Document" directory
 
         :param doc_path: Path to the document

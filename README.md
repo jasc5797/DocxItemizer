@@ -40,7 +40,7 @@ List all files that their name or contents match a regex expression
 python3 docitemizer.py [path] [search term]
 ```
 
-## A Help 
+## Help 
 View help in the command line
 ```
 python3 docitemizer.py -h
